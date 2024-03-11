@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/icon" href="">
+    <title>Altarmiz</title>
+</head>
+<body>
+    <!-- Navabar -->
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-xl">
+          <a class="navbar-brand" href="#"><img src="Media/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="col justify-content-center navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Who we are?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">What we do?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">How we do it?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Success Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">For Enterprises</a>
+              </li>
+            </ul>
+            <a id="proposalbtn" class="btn btn-primary btn-lg px-4 me-md-2" href="#" role="button">Get a Proposal</a>
+            <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get a Proposal</button> -->
+          </div>
+        </div>
+      </nav>
+    <!-- End Navabar -->
+
+    <!-- hero section -->
+    <section class="hero">
+      <div id="hero" class="container-fluid justify-content-center align-items-center">
+        <div class="row flex-lg-row-reverse align-items-center justify-content-center">
+          <div class="col-10 col-sm-8 col-lg-5 portion2">
+            <div class="container imgbg">
+              <img src="Media/hero1.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+            </div>
+          </div>
+          <div class="col-lg-7 heroContent align-items-center">
+            <h1 class="display-5 fw-bold lh-1 mb-3 ">Let's seamlessly take
+              Your app idea to the global market</h1>
+            <div id="herobtn" class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get a Proposal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section End-->
+
+    <!-- sponsorship -->
+    <!-- <section class="sponsorship"> -->
+      <div class="container sponsor align-items-center">
+        <div class="row text-center items">
+          <div class="spons col" style="width: 130px;"><img src="Media/intel.svg" alt=""></div>
+          <div class="spons col" style="width: 100px;"><img src="Media/apple.svg" alt=""></div>
+          <div class="spons col" style="width: 130px;"><img src="Media/disneyp.svg" alt=""></div>
+          <div class="spons col" style="width: 130px;"><img src="Media/at.svg" alt=""></div>
+          <div class="spons col" style="width: 130px;"><img src="Media/paytm.svg" alt=""></div>
+        </div>
+      </div>
+    <!-- </section> -->
+    <!-- sponsorship End-->
+
+    <!-- dreams -->
+    <!-- <section class="dreams text-center"> -->
+      <div class="container dream text-center">
+        <div class="row">
+          <div class="col">
+            <h2 class="fw-semibold mb3 mx-auto text-center" style="width: 1140px;">Your dream made a reality, on any platform!</h2>
+            <p id="clienttxt" class="text-center mx-auto" style="width: 1140px;">Having built over 120+ apps on almost every single platform and device, we can make your dream a reality</p>
+          </div>
+        </div>
+        <img src="Media/mocks.svg" alt="Your Amazing app here">
+      </div>
+    <!-- </section> -->
+    <!-- dreams End-->
+    
+    <!-- intel award -->
+      <div class="container intel">
+        <div class="row">
+          <div id="intel" class="col">
+            <h2 class="fw-semibold mb3  mx-auto text-center justify-content-center" style="width: 1080px; font-size: 35px;">We are the World's Most Valuable Developers awarded by Intel</h2>
+          </div>
+        </div>
+        <img id="intelaward" src="Media/intelaward.png" alt="">
+      </div>
+    <!-- intel award End-->
+
+    <!-- expertise -->
+      <div class="container expertise"> 
+        <div class="row ">
+          <div class="col ">
+            <h2 class="fw-semibold mb3 mx-auto text-center" style="width: 1140px;">Our Expertise</h2>
+            <p id="clienttxt" class="text-center mx-auto" style="width: 1140px;">Right from app development to scaling your organization, we have all the capabilities you need</p>
+          </div>
+          <!-- <div id="cards" class="row mx-auto"> -->
+            <div class="cardholder row d-flex justify-content-around mx-auto" style="padding: 0%;">
+              <div class="card">
+                <img src="media/expertiseicons.svg" class="card-img-top" alt="..." style="width: 40px; height: 35px;">
+                <div class="card-body1">
+                  <h4 class="card-title">App Development</h4>
+                  <p class="card-text">Build a secure, future-proof application through the latest technologies and enhance your user experience</p>
+                </div>
+                <a id="readmore" class="btn  btn-lg px-4 me-md-2" href="#" role="button" >Readmore <span class="material-symbols-rounded" style="position: relative; top: -23px; left: 55px;" >
+                  arrow_right_alt</span></a>
+              </div>
+              <div class="card">
+                <img src="media/expertiseicons-1.svg" class="card-img-top" alt="..." style="width: 40px; height: 35px;">
+                <div class="card-body1">
+                  <h4 class="card-title">Technology  Consulting</h4>
+                  <p class="card-text">Explore new opportunities, get insights and overcome your barriers by consulting with our experts</p>
+                </div>
+                <a id="readmore" class="btn  btn-lg px-4 me-md-2" href="#" role="button" >Readmore <span class="material-symbols-rounded" style="position: relative; top: -23px; left: 55px;" >
+                  arrow_right_alt</span></a>
+              </div>
+              <div class="card">
+                <img src="media/expertiseicons-2.svg" class="card-img-top" alt="..." style="width: 40px; height: 35px;">
+                <div class="card-body1">
+                  <h4 class="card-title">Research and Development</h4>
+                  <p class="card-text">Analyze, solve complex challenges and develop solutions that create a revolution</p>
+                </div>
+                <a id="readmore" class="btn  btn-lg px-4 me-md-2" href="#" role="button" >Readmore <span class="material-symbols-rounded" style="position: relative; top: -23px; left: 55px;" >
+                  arrow_right_alt</span></a>
+              </div>
+            </div>
+          </div
+        </div>
+        
+      </div>
+    <!-- expertise End-->
+
+    <!-- recent work -->
+    <div id="godmusic" class="container justify-content-center ">
+      <div class="row flex-lg-row-reverse align-items-center justify-content-center">
+        <div class="col-10 col-sm-8 col-lg-7">
+            <img id="musicmock" src="Media/musicmock.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  loading="lazy">
+        </div>
+        <div class="godmusic col-lg-5 justify-content-center text-center" style="position: relative; left: 100px;">
+          <h4 class="display-5 fw-bold lh-1 mb-3 text-center">Our Recent Great Work</h4>
+          <img src="Media/godmusic.svg" alt="" >
+          <p class="text-center mx-auto" style="position: relative; width: 338px;top: 10px;" >Trending in <span> <b>Music Category</b> </span>  at Google play store</p>
+          <div id="" class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get a Proposal</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="container " style="position: relative; width: 164px; height: 46px; background-color: white; border-radius: 10px; top: -80px;">
+        <p class="text-center flex-column justify-content-center" style="font-weight: 600; position: relative; top: 6px;"><span class="material-symbols-rounded" style="position: relative; top: 6px; right: 10px; color: rgb(71, 77,241);">
+          navigate_before
+          </span> 1 of 2 <span class="material-symbols-rounded" style="position: relative; top: 6px; left: 10px; color: rgb(71, 77,241);">
+            navigate_next
+            </span></p>
+      </div>
+    </div>
+    <!-- recent work end-->
+
+    <!-- powering innovation -->
+    <div class="container-fluid innovation">
+      <h2 class="mx-auto text-center">Powering innovation worldwide</h2>
+      <p class="text-center">Bring your ideas to life through great expertise and consultations</p>
+      <div class="row innovationcnt">
+        <div class="contanier col-lg-4 mock">
+          <img src="Media/fasttrack.svg" alt="">
+        </div>
+        <div class="container col-lg-7 rightportion" style="margin: 0px;">
+          <div class="slider" style="position:relative; text-align: right;">
+            <p>Howdy</p>
+            <p>Fast Track<img src="Media/bar.svg" alt=""></p>
+            <p>Sarav</p>
+            <p>Speed Learning App</p>
+          </div>
+          <img  src="Media/fasttracklogo.svg" alt="">
+          <p style="position: relative; top: 20px;">Cloud-based, end-to-end Uber-like Cab Aggregation Platform.</p>
+          <pstyle="position: relative; top: 20px;" >Platforms developed :</p><br>
+          <div  class="devloped row justify-content-around align-items-center ">
+            <p class="text-center" style="position: relative; top: 10px;"><img src="Media/android.svg" alt="">Android | <img src="Media/appledev.svg" alt=""> iOS | <img src="Media/web.svg" alt=""> Web</p>
+          </div>
+          <p style="position: relative; top: 20px; width: 576px;" >We created a reliable, scalable, and modular cab management platform with apps for users, drivers, owners, and board of directors.</p>
+          <a id="readcasestudy" class="btn  btn-lg px-4 me-md-2" href="#" role="button" >Read Case Study <span class="material-symbols-rounded" style="position: relative; top: -22px; left: 75px;" >
+            arrow_right_alt</span></a>
+        </div>
+      </div> 
+    </div>
+    <!-- powering innovation end-->
+    <script src="JQuery/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
