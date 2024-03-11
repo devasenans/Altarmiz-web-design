@@ -1,0 +1,250 @@
+:root{
+    /* color */
+    --primary:#474DF1;
+    --secondary:#333447;
+    --black:#000000;
+    --gray:#4d4d4d;
+    --white:#ffffff;
+    --text:#2b2b2b;
+
+    /* headlines */
+    --head-1:60px;
+    --head-2:40px;
+    --head-3:30;
+    --head-4:24;
+    --head-5:20;
+
+    /* Regular body */
+    --Regular-body-1:18px;
+    --Regular-body-2:16px;
+    --Regular-body-3:14px;
+
+    /* Medium body */
+    --Medium-body-1:18px;
+    --Medium-body-2:16px;
+    --Medium-body-3:14px;
+    
+    /* weight */
+    --font-weight-bold:700;
+    --font-weight-semibold:600;
+    --font-weight-medium:500;
+    --font-weight-regular:400;
+}
+body{
+    font-family:  'Poppins', sans-serif !important;
+    color: var(--text);
+}
+nav{
+    height: 80px;
+    font-size: var(--Regular-body-2);
+    /* font-weight: var(--font-weight-regular); */
+    color: var(--text);
+    background-color: rgba(255, 255, 255,.7);
+    backdrop-filter: blur(14px); 
+
+}
+#proposalbtn
+{   
+    /* width: 144px; */
+    height: 44px;   
+    background-color: var(--primary);
+    color: white !important;
+    border-radius: 10px;
+    font-size: var(--Medium-body-2);
+}
+#navbarSupportedContent{
+    font-weight:var(--font-weight-medium);
+    color: var(--text) !important;
+    /* padding-inline: 35px; */
+}
+#hero{
+    position: relative;
+    top: 80px;
+    background-color: rgba(71, 77, 241,.10);
+    height: 598px !important;
+    /* padding: 0% !important; */
+}
+.heroContent{
+    top: 50px;
+    width: 559px ;
+    position: relative;
+    /* padding: 150px; */
+}
+.heroContent h1{
+    position: relative;
+    width: 559px;
+    font-size: var(--head-2);
+    left: 100px !important;
+}
+.imgbg{
+    position: relative;
+    top: 37px;
+    left: 36px;
+    background-color: var(--white);
+    width: 565px !important;
+    height: 452px;
+    border-radius: 50px 0px 0px 50px;
+    padding: 0% !important;
+}
+.portion2{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+#herobtn{
+    position: relative;
+    width: 559px;
+    left: 100px;
+}
+/* .spronsorship{
+    width: 1140px !important;
+    height: 118px;
+    position: relative;
+    background-color: var(--white); */
+/* } */
+.sponsor{
+    position: relative;
+    top: 10px;
+    width: 1140px;
+    height: 118px;
+    border-radius: 30px;
+    background-color: var(--white) !important;
+    box-shadow:0 6px 20px 0 rgba(71, 77, 241, 0.19);
+}
+.spons{
+    position: relativ;
+    /* width: 202px !important; */
+    height: 118px;
+    align-items: center;
+    justify-content: center;
+}
+.dream{
+    position: relative;
+    width: 1140px;
+    height: 717px;
+    top: 100px;
+}
+.intel{
+    position: relative;
+    width: 1140px;
+    height: 243px;
+    top: 100px ;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:rgba(71, 77, 241, .10);
+}
+.intel{
+    position: relative;
+    /* top: 80px; */
+    font-size: 35px !important;
+    width: 1140px !important;
+}
+#intel{
+    position: relative;
+    top: 80px;
+}
+#intelaward{
+    position: relative;
+    top: -30px;
+    left: 50px;
+}
+.expertise{
+    position: relative;
+    width: 1140px !important;
+    height: 480px;
+    top: 200px;
+}
+.card{
+    width: 364px !important;
+    height: 330px !important;
+    padding: 30px !important;
+    border-radius: 30px !important;
+    border: none !important;
+    background-color: rgba(71, 77, 241, .10) !important;
+}
+.card-title{
+    font-size: 20px !important;
+    font-weight: var(--font-weight-semibold) !important;
+}
+.card-body1{
+    position: relative;
+    top: 30px;
+}
+#readmore{
+    position: relative;
+    top: 60px;
+    border-style: solid !important;
+    border-color: #2b2b2b !important;
+    border-radius: 100px !important;
+    width: 147px !important;
+    height: 40px !important;
+    font-size: vbar
+    var(--Regular-body-3) !important;
+}
+.cardholder{
+    position: relative;
+    top: 30px !important;
+}
+.card-text{
+    height: 96px !important;
+}
+#godmusic{
+    position: relative;
+    top: 250px;
+    width: 1140px !important;    
+    height: 570px !important;
+    background-color: rgba(71, 77,241,.10) !important;    
+    border-radius: 30px;
+}
+#musicmock{
+    position: relative;
+    margin: 0px !important;
+    width: 598px !important;
+    height: 570px !important;
+    left: 55px;
+    border-radius: 0 30px 30px 0px;
+}
+.godmusic h4{
+    position: relative;
+    font-size: 35px;
+    font-weight: var(--font-weight-semibold) !important;
+}
+.innovation{
+    position: relative;
+    top: 350px;
+    height: 815px !important;
+}
+.innovationcnt{
+    background-color: rgba(71, 77, 241, .10);
+    height: 685px !important;
+}
+.mock{
+    position: relative;
+    top: 70px;
+    width: 529px !important;
+    height: 537px !important;
+    background-color: var(--white);
+    border-radius: 0 30px 30px 0;
+    box-shadow:0 6px 20px 0 rgba(71, 77, 241, 0.10  );
+}
+.rightportion{
+    position: relative;
+    left: 40px;
+    padding: 100px;
+}
+#readcasestudy{
+    position: relative;
+    top: 170px;
+    width: 189px;
+    height: 40px;
+    font-size: var(--Regular-body-3);
+    border-style: solid;
+    border-color: var(--black);
+    border-radius: 100px;
+}
+.devloped{
+    position: relative;
+    width: 277px !important;
+    height: 51px !important;
+    background-color: var(--white);
+    border-radius: 10px;
+}
