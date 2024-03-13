@@ -1,7 +1,7 @@
 :root{
     /* color */
     --primary:#474DF1;
-    --secondary:#333447;
+    --secondary:#1F1F2D;
     --black:#000000;
     --gray:#4d4d4d;
     --white:#ffffff;
@@ -103,7 +103,7 @@ nav{
 /* } */
 .sponsor{
     position: relative;
-    top: 10px;
+    top: 20px;
     width: 1140px;
     height: 118px;
     border-radius: 30px;
@@ -211,6 +211,7 @@ nav{
 .innovation{
     position: relative;
     top: 350px;
+    width: 100%  !important;
     height: 815px !important;
 }
 .innovationcnt{
@@ -247,4 +248,158 @@ nav{
     height: 51px !important;
     background-color: var(--white);
     border-radius: 10px;
+}
+.achivement{
+    position: relative;
+    height: 475px;
+    /* background-color: #474DF1; */
+    top: 400px;
+}
+.illu{
+    position: relative;
+    width: 399px;
+    height: 336px;
+    background-color:rgba(71, 77, 241, .10);
+    border-radius: 30px;
+    top: 80px;
+}
+.slider p{
+    color: var(--gray);
+}
+.achivementbox{
+    position: relative;
+    background-color:rgba(71, 77, 241, .10);
+    width: 221px !important;
+    height: 155px !important;
+    border-radius: 20px;
+    padding: 30px;
+}
+.awards{
+    position: relative;
+    top: 450px;
+    height: 408px !important;
+}
+.award{
+    position: relative;
+    top: 25px;
+    width: 183px !important;
+    height: 192px;
+    background-color: rgba(71, 77, 241, .06);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 12px;
+}
+.awardactive{
+    width: 227px !important;
+    height: 238px;
+    background-color: rgba(71, 77, 241, .10);
+    border-radius: 15px;
+    padding: 20px;
+}
+.workwith{
+    background-color: rgba(71, 77, 241, .10);
+    height: 571px;
+    background-color: rgba(71, 77, 241, .10);
+    border-radius: 30px;
+    position: relative;
+    top: 500px;
+}
+.workWithContent{
+    position: absolute;
+    left: 4%;
+    top: 7.5%;
+    width: 1240px !important;
+    height: 367px;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+.workText{
+    position: absolute;
+    top: 34%;
+    left: 3%;
+    width: 641px !important;
+    height: 153px;
+}
+.company{
+    position: relative;
+    background-color: var(--white);
+    width: 157px !important;
+    height: 75px;
+    top: 450px;
+    border-radius: 10px;
+}
+.wall{
+    position: relative;
+    width: 100%;
+    background-color: rgba(71, 77, 241, .10);
+    height: 494px;
+    top: 600px;
+}
+.wallText{
+    padding: .5em;
+}
+.appForStartup{
+    position: relative;
+    height: 271px;
+    top: 700px;
+}
+.startupimg{
+    width: 322px !important;
+    height: 271px !important;
+    background-color: rgba(71, 77, 241, .10);
+    border-radius: 30px;
+}
+.godmusicvideo
+{
+    position: relative;
+    background-color: rgba(71, 77, 241, .10);
+    width: 100%;
+    height: 346px;
+    top: 800px;
+}
+.founderimg{
+    position: relative;
+    top: -30px;
+    border-radius: 30px;
+    left: 100px;
+}
+.musicContent{
+    position: relative;
+    height: 263px;
+    /* top: 50px; */
+}
+.endingproposal{
+    position: relative;
+    top: 900px;
+    height: 359px;
+}
+
+#foot{
+    position: relative;
+    top: 900px !important;
+    color: var(--white);
+    padding: 0%;
+    width: 100%;
+    height: 328px;
+    background-color: var(--secondary)
+}
+#newsletter1{
+    width: 255px;
+    border: none;
+    border-radius: 8px;
+    color: #D9DBE1;
+    background-color: transparent;
+    color: var(--white);
+}
+.email{
+    width: 255px;
+    height: 40px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 8px;
+}
+#mailicon{
+    color: var(--white);
+    position: relative;
+    left: -40px;
+    bottom: -9px;
 }
